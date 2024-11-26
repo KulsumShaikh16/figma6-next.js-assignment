@@ -13,7 +13,7 @@ const Testimonials = () => {
           Customer testimonials
         </h2>
         <p className="text-lg text-[#000000] mt-2 mb-14 text-center lg:text-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet,consectetur adipiscing elit.
         </p>
       </div>
        <div className="flex gap-8 w-[1152px]">
@@ -22,13 +22,13 @@ const Testimonials = () => {
           <p className="flex gap-1 p-2">
             <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
           </p>
-          <p className="text-lg py-2 ">
-            "Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+          <p className="text-lg py-2">
+            &quot;Lorem ipsum dolor sit amet,consectetur adipiscing elit.
             Suspendisse varius enim in eros elementum tristique. Duis cursus, mi 
-            quis viverra ornare."
+            quis viverra ornare.&quot;
           </p>
 
-          <div className="w-[394.67px]   flex gap-5 ">
+          <div className="w-[394.67px] flex gap-5 ">
             <Image src="/Avatar Image1.svg" alt="design" width={56} height={56} className="border-none border-rounded-full"/>
             
 
@@ -49,10 +49,10 @@ const Testimonials = () => {
           <p className="flex gap-1 p-2">
             <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
           </p>
-          <p className="text-lg py-2 ">
-            "Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+          <p className="text-lg py-2">
+            &quot;Lorem ipsum dolor sit amet,consectetur adipiscing elit.
             Suspendisse varius enim in eros elementum tristique. Duis cursus, mi 
-            quis viverra ornare."
+            quis viverra ornare.&quot;
           </p>
 
           <div className="w-[394.67px]   flex gap-5 ">
@@ -76,9 +76,9 @@ const Testimonials = () => {
             <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
           </p>
           <p className="text-lg py-2 ">
-            "Lorem ipsum dolor sit amet,consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi 
-            quis viverra ornare."
+            &quot;Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+            Suspendisse varius enim in eros elementum tristique.Duis cursus,mi 
+            quis viverra ornare.&quot;
           </p>
 
           <div className="w-[394.67px]   flex gap-5 ">
@@ -121,7 +121,7 @@ const Testimonials = () => {
     </div>
 
    
-  );
-};
+  )
+}
 
 export default Testimonials;
